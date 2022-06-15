@@ -1,0 +1,22 @@
+
+
+
+    body {
+        background-color: bisque;
+        margin: 0;
+        padding: 0;
+        font-family: 'Times New Roman', Times, serif;
+        text-shadow: aqua;
+}
+    
+
+    header {
+    background-color: darkgoldenrod;
+    text-shadow: dimgrey;
+}
+
+main{
+width: 960px;
+background-color: blanchedalmond;
+margin: 0 auto;
+}
