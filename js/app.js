@@ -6,28 +6,22 @@ let userName = prompt('What is your name?');
 
 console.log(userName);
 
-let time = prompt('What time is it?');
+let shoe = prompt('Do you like shoes? press 1 for yes and 3 for no');
 
-console.log('the time is', typeof time);
+console.log('the shoe is', typeof shoe);
 
-let timeNumber = parseInt(time);
+let shoeNumber = parseInt(shoe);
 
-console.log('did it turn into a number?', timeNumber);
-
-alert('You entered the time ', + timeNumber);
+console.log('did it turn into a number?', shoeNumber);
 
 let message;
 
-if(time <= 11){
-    message = 'good morning';
-} else if (time <18){
-    message = 'good afternoon';
-} else if (time <24){
-    message = 'go to bed';
+if(shoe ==1){
+    message = 'Good! Your in the right place!';
+} else if (shoe ==3){
+    message = 'Who doesnt like shoes???';
 } else {
-    message = 'ha ha ha';
+    message = 'why cant you follow simple instructions ';
 }
 
-console.log('our return message', message);
-
-document.write('Hello ' + userName + ' ! ' + ' The time is ' +  timeNumber + message);
+document.write('Hey ' + userName + ' ! ' + message);
