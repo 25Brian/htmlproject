@@ -13,6 +13,7 @@ body {
 header {
     background-color: darkgoldenrod;
     text-shadow: dimgrey;
+    border: midnightblue;
 }
 
 main{
@@ -22,7 +23,11 @@ main{
 }
 
 .shoe {
-    height: 300px;
-    width: 300px;
-    margin: 0 auto;
+    width: 250 px;
+    height: 250 px;
+} 
+
+footer {
+background-color: darkgoldenrod;
+border: midnightblue;
 }
