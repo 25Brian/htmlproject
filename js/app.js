@@ -1,4 +1,7 @@
 'use strict';
+var img = new Image();
+img.src = 'https://cdn4.iconfinder.com/data/icons/expressive-emoticons/64/disturbed_annoyed_feeling_annoyed_unpleasant_emoji_expression_face_emoticon_upset_boredom_no_not_flat-512.pngg';
+
 console.log('java is connected.');
 
 
@@ -21,7 +24,7 @@ if(shoe ==1){
 } else if (shoe ==3){
     message = 'Who doesnt like shoes???';
 } else {
-    message = 'why cant you follow simple instructions ';
+    message = ' can you count? ';
 }
-
+ 
 document.write('Hey ' + userName + ' ! ' + message);
