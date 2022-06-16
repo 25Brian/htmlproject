@@ -41,3 +41,15 @@ function functionName(){
 console.log('function is working');
 
 console.log('java is connected.');
+
+for(let i = 0; i <= 1000; i++){
+    console.log('counting i: ', i)
+}
+
+let count = 0;
+
+while(count <= 50){
+    console.log(count);
+
+    count = count + 5;
+}

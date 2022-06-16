@@ -6,30 +6,24 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Times New Roman', Times, serif;
-    border-style: solid;
-    border-width: thick;
-    border: midnightblue;
     text-shadow: aqua;
     width: 960px;
     margin: 0 auto;
     
 }
-    
+
 
 header {
     background-color: darkgoldenrod;
+    padding: 250 px;
     text-shadow: dimgrey;
-    border-style: solid;
-    border-width: thick;
-    border: midnightblue;
     margin: 100px;
-    
+    border: 10px solid midnightblue;
 }
 
 main{
     width: 960px;
     background-color: blanchedalmond;
-    margin: 100px;
     margin: 0 auto;
 }
 
@@ -40,10 +34,8 @@ main{
 
 footer {
 background-color: darkgoldenrod;
-border-style: solid;
 margin: 100px;
-border: midnightblue;
-border-width: thick;
+border: 10px solid midnightblue;
 font-size: 20px;
 font-family: 'Times New Roman', Times, serif;
 }
