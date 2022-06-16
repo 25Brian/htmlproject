@@ -1,32 +1,39 @@
 'use strict';
 
-console.log('function demo is connected')
+console.log('function demo is connected');
 
 
-userName();
-
-function userName(){
-    let userName = prompt('what is your name?');
-    console.log ('username', userName);
-    return userInput;
-}
-
-let shoe = prompt('Do you like shoes? press 1 for yes and 3 for no');
-
-console.log('the shoe is', typeof shoe);
-
-let shoeNumber = parseInt(shoe);
-
-console.log('did it turn into a number?', shoeNumber);
-
+let userInputName;
 let message;
 
-if(shoe ===1){
-    message = 'Good! Your in the right place!';
-} else if (shoe ===3){
-    message = 'Who doesnt like shoes???';
-} else {
-    message = ' can you count? ';
+function userName(){
+  userInputName = prompt('What is your name?');
+  return userInputName;
 }
- 
-document.write('Hey ' + userInput + ' ! ' + message);
+userName();
+
+
+
+
+
+function userShoeResponse(){
+  let shoeSelectionNum =  parseInt(prompt('Do you like shoes? press 1 for yes and 3 for no'));
+
+  console.log(typeof shoeSelectionNum);
+
+
+
+  if(shoeSelectionNum === 1){
+    message = 'Good! Your in the right place!';
+  } else if (shoeSelectionNum === 3){
+    message = 'Who doesnt like shoes???';
+  } else {
+    message = ' can you count? ';
+  }
+
+}
+
+userShoeResponse();
+
+
+document.write('Hey ' + userInputName + ' ! ' + message);
