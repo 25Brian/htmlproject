@@ -2,11 +2,13 @@
 
 console.log('function demo is connected')
 
+
 userName();
 
 function userName(){
     let userName = prompt('what is your name?');
     console.log ('username', userName);
+    return userInput;
 }
 
 let shoe = prompt('Do you like shoes? press 1 for yes and 3 for no');
@@ -27,4 +29,4 @@ if(shoe ===1){
     message = ' can you count? ';
 }
  
-document.write('Hey ' + userName + ' ! ' + message);
+document.write('Hey ' + userInput + ' ! ' + message);
