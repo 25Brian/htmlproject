@@ -1,0 +1,43 @@
+'use strict';
+
+function functionName(){
+}
+
+console.log('function is working');
+
+
+
+functionName();
+
+function userName(){
+    let userName = prompt('what is your name ');
+    console.log ('username', userName);
+    return document.write(userName);
+}
+
+
+function timeOfday(){
+    let userTime = prompt('what time is it?');
+    let message;
+
+    if(userTime != 11){
+        let userTime = prompt('What time is it?');
+    } else {
+      message = 'Thanks for the time!';   
+    }
+}
+
+
+functionName();
+
+
+
+let userName = prompt('What is your name?');
+
+
+function functionName(){
+}
+
+console.log('function is working');
+
+console.log('java is connected.');

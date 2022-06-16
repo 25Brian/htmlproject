@@ -1,13 +1,14 @@
 'use strict';
-var img = new Image();
-img.src = 'https://cdn4.iconfinder.com/data/icons/expressive-emoticons/64/disturbed_annoyed_feeling_annoyed_unpleasant_emoji_expression_face_emoticon_upset_boredom_no_not_flat-512.pngg';
 
-console.log('java is connected.');
+console.log('function demo is connected')
 
 
-let userName = prompt('What is your name?');
+userName();
 
-console.log(userName);
+function userName(){
+    let userName = prompt('what is your name ');
+    console.log ('username is', userName);
+}
 
 let shoe = prompt('Do you like shoes? press 1 for yes and 3 for no');
 
@@ -27,4 +28,4 @@ if(shoe ==1){
     message = ' can you count? ';
 }
  
-document.write('Hey ' + userName + ' ! ' + message);
+document.write('Hey ' + userNam + ' ! ' + message);
